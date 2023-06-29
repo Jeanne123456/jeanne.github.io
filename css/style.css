@@ -1,0 +1,85 @@
+#wrapper{display:grid; grid-template-areas:
+           "innergrid"
+             "middle"
+             "pepeha";
+    text-align: center;
+}
+
+#header, #innergrid, #middle, #pepeha {border: black;}
+
+#innergrid{display: grid; grid-area: innergrid; background-color: #2DB483; grid-template-areas: "home awards about culture contact";
+}
+
+#home{ 
+    grid-area: home;
+    text-align:center;
+    background-color: #F5F5F5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 16px;
+}
+
+#awards{ 
+    grid-area: awards;
+    text-align:center;
+   background-color: #F5F5F5;       margin-top: 5px;
+    margin-bottom: 5px;
+       margin-left: 5px;
+       margin-right: 5px;
+        padding: 16px;
+}
+
+#about{ grid-area:about;
+       text-align:center;
+       background-color: #F5F5F5;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       margin-left: 5px;
+       margin-right: 5px;
+    padding: 16px;
+}
+
+#culture{ grid-area:culture;
+       text-align:center;
+       background-color: #F5F5F5;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       margin-left: 5px;
+       margin-right: 5px;
+    padding: 16px;
+}
+
+#contact{ grid-area:contact;
+        text-align:center;
+       background-color: #F5F5F5;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       margin-left: 5px;
+       margin-right: 5px;
+    padding: 16px;
+}
+
+#middle{ grid-area: middle; background-color: #75FFC5; text-align: center;padding: 64px;}
+
+#pepeha{ grid-area: pepeha;
+     background-color:#77ff94;
+    padding: 128px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
